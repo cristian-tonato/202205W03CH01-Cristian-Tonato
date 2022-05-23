@@ -4,14 +4,14 @@ import { Luchador } from "./luchador.js";
 import { Rey } from "./rey.js";
 
 
-const jeoffrey = new King(
+const jeoffrey = new Rey(
     'Joffrey Baratheon',
     'Lannister',
     '14',
     '2',
     './img/joffrey.jpg'
 );
-const jaime = new Fighter(
+const jaime = new Luchador(
     'Jaime Lannister',
     'Lannister',
     '32',
@@ -19,7 +19,7 @@ const jaime = new Fighter(
     '9',
     './img/jaime.jpg'
 );
-const daenerys = new Fighter(
+const daenerys = new Luchador(
     'Daenerys Targaryen',
     'Targaryen',
     '16',
@@ -27,7 +27,7 @@ const daenerys = new Fighter(
     '9',
     './img/daenerys.jpg'
 );
-const tyrion = new Adviser(
+const tyrion = new Asesor(
     'Tyrion Lannister',
     'Lannister',
     '28',
