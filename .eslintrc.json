@@ -5,7 +5,8 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "standard",
+        "prettier"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
