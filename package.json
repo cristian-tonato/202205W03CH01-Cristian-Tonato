@@ -1,12 +1,40 @@
 {
   "name": "202205w03ch01-cristian-tonato",
   "version": "1.0.0",
-  "description": "",
+  "description": "GoT DOM\r Tendrás que programar esta interfaz de usuario para que refleje el modelo de datos que diseñaste en el anterior ejercicio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint",
+    "types": "module",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-tonato/202205W03CH01-Cristian-Tonato.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristian-tonato/202205W03CH01-Cristian-Tonato/issues"
+  },
+  "homepage": "https://github.com/cristian-tonato/202205W03CH01-Cristian-Tonato#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
 }
