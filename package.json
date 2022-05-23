@@ -1,25 +1,20 @@
 {
   "name": "202205w03ch01-cristian-tonato",
   "version": "1.0.0",
-  "description": "GoT DOM\r Tendrás que programar esta interfaz de usuario para que refleje el modelo de datos que diseñaste en el anterior ejercicio.",
+  "description": "Game of thrones ",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll --coverage",
     "lint": "eslint",
-    "types": "module",
-    "test:watch": "jest --watchAll"
+    "types": "module"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cristian-tonato/202205W03CH01-Cristian-Tonato.git"
+  "prettier": {
+      "singleQuote": true
   },
-  "bugs": {
-    "url": "https://github.com/cristian-tonato/202205W03CH01-Cristian-Tonato/issues"
-  },
-  "homepage": "https://github.com/cristian-tonato/202205W03CH01-Cristian-Tonato#readme",
+ 
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.0",
     "eslint": "^8.16.0",
