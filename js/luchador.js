@@ -1,9 +1,9 @@
 import { Personaje } from "./Personaje.js"
 
 export class Luchador extends Personaje{
-    constructor (name, family, age,status){
-        super(name, family,age,status)
-        this.arma=arma
+    constructor (name, family, age,estatus, img = new Personaje()){
+        super(name, family,age,estatus,img, weapon)
+        this.weapon= weapon;
         this.message = "Primero pego y luego pregunto"
     }
 }
